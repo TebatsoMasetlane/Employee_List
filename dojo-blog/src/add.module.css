@@ -1,0 +1,30 @@
+
+.names{
+   width: 300px; height: 35px; border-radius: 10px;
+}
+.icon
+{
+    border-radius: 100px;
+
+}
+.myAdd{
+   margin-left: 30px; margin-top: 2%;
+}
+.details{
+   padding: 15px;
+}
+.post, .contact{
+   width: 300px; height: 35px; border-radius: 10px;
+}
+
+
+.Con {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: transparent;
+    flex-direction: row;
+    margin-left: 500px;
+    width: 1000px;
+    height: 500px;
+    padding: 50px;
+}

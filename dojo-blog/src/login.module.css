@@ -1,0 +1,498 @@
+body{
+    font-family: sans-serif;
+    background-image: url('./assets/bg.jpg'); 
+    text-align: center;
+    color: white;
+    background-repeat: no-repeat;
+    -webkit-backgroud-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#home{
+    background-image: url('./assets/homebackground.png'); 
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100% 252%;
+    /* -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain; */
+}
+
+input[type=text]
+{
+    text-align: center;
+    text-decoration-color: white;
+}
+
+input[type=text], input[type=password] 
+{
+    
+    padding: 14px 10px;
+    margin: 50px auto;
+    display: block;
+    border: 0;
+    box-sizing: border-box;
+    text-align: center;
+    width: 900px;
+    outline: none;
+    color: black;
+    border-radius: 15px;
+    background: #D9D9D9;
+    transition: 0.25s;
+
+  }
+
+
+  input[type=submit]
+  {
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    left: 900px;
+    top: 600px;
+    background: #0CB3A5;
+    border-radius: 70px;
+ }
+/*
+ #icon
+ {
+    
+    width: 130px;
+    height: 130px;
+    left: 100px;
+    top: 200px;
+    background: url('./assets/person-icon.png');
+    border-radius: 50px;
+ }
+
+  #undraw
+ {
+    position: absolute;
+    width: 500px;
+    height: 600px;
+    left: 1100.5px;
+    top: 300px;
+    transform: rotate(3.58deg);
+
+ }
+#Register
+{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    left: 380px;
+    top: 350px;
+    background: #0CB3A5;
+    border-radius: 70px;
+
+
+}
+
+.box
+{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    left: 100px;
+    top: 350px;
+}
+.register
+{
+    position: absolute;
+    width: 1000px;
+    height: 100px;
+    left: 85px;
+    top: 150px;
+    font-family: 'Imprima';
+    font-style: normal;
+    font-weight: 50;
+    font-size: 50px;
+    line-height: 50px;
+
+color: #FFFFFF;
+}
+
+#login
+{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 83px;
+    top: 320px;
+    font-family: 'Imprima';
+    font-style: normal;
+    color: #FFFFFF;
+    
+} */
+
+/* =================================  Employee List =========================
+====================================  Employee List =========================*/
+
+/* .employee_list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+.flex-container{
+    background-color: #D9D9D9;
+    width: 220px;
+    border-radius: 50px 50px 50px 50px;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+.flex-container img{
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+.flex-container p, .flex-container h2{
+    color: black;
+}
+
+.buttons{
+    display: flex;
+}
+
+.btn-edit{
+    margin-left: 4px;
+    width: 100px;
+    height: 42px;
+    background-color: #286274;
+    border-radius: 50px;
+}
+
+.btn-delete{
+    margin-left: 10px;
+    width: 100px;
+    height: 42px;
+    background-color: #742828;
+    border-radius: 50px;
+}
+.btn-home{
+   
+    background-color: #0CB3A6;
+    border-radius: 10px;
+    margin-left: 200px
+} 
+
+
+/*=======================================================Landing Page*====================================================================================
+
+.navbar
+{
+    display: flex;
+    margin-top: 15px;
+}
+
+.logo{
+    font-family: 'Inria Serif';
+    font-style: normal;
+    font-weight: 50;
+    font-size: 35px;
+    line-height: 30px;
+    color: #0CB3A5;
+}
+
+.menu{
+    margin-left: 250px;
+}
+
+.menu ul{
+    display: flex;
+}
+
+ul li
+{
+    list-style: none;
+    margin-left: 62px;
+    font-size: 20px;
+}
+
+ul li a
+{
+  text-decoration: none;
+  color:#ffff;
+  font-family: 'Inria Serif';
+  font-weight: bold;
+
+}
+
+.search
+{
+    width: 330px;
+    margin-left: 270px;
+}
+
+.srch
+{
+    width: 150px;
+    height: 50px;
+    background: #D9D9D9;
+    border-radius: 100px;
+    border:1px solid #0CB3A5;
+    margin-top:  13px;
+    margin-left: 20px;
+    font-size: 1em;
+}
+
+.btn
+{
+    width: 100px;
+    height: 40px;
+    background: transparent;
+    border:2px solid transparent;
+    margin-top:13px;
+    border-radius: 100px;
+    margin-left: -25px;
+    font-weight: bold;
+}
+
+.content
+{
+  width: 100px;
+  height: 100px;
+  font-family: 'Imprima';
+  font-style: normal;
+  font-weight: 150;
+  font-size: 30px;
+  line-height: 70px;
+  color: #D9D9D9;
+  margin-left: 150px;
+  margin-top: 150px;
+}
+#send
+{
+    position: absolute;
+    width: 350px;
+    height: 55px;
+    margin-left: -740px;
+    margin-top: 100px;
+    background: #0ADAB9;
+    border-radius: 100px;
+
+}
+#reg
+{
+    
+    width: 350px;
+    height: 55px;
+    margin-left: -740px;
+    margin-top: 162px;
+    background: #0ADAB9;
+    border-radius: 100px;
+
+}  */
+/*
+#circles{
+    background-image: url('../assets/circles.png');
+}*/
+
+/*
+.icon
+{
+    
+    width: 200px;
+    height: 70px;
+    float: left;
+
+}
+.navbar
+{
+  width: 1200px;
+  height: 75px;
+  margin:auto;
+
+}
+.logo{
+
+    position: absolute;
+    font-family: 'Inria Serif';
+    font-style: normal;
+    font-weight: 50;
+    font-size: 35px;
+    line-height: 30px;
+    color: #0CB3A5;
+    left: 50px;
+    top: 10px;
+}
+.menu
+{
+    width: 400px;
+    float:left;
+    height: 70px;
+
+}
+ul
+{
+  float:left;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+
+ul li
+{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+ul li a
+{
+  text-decoration: none;
+  color:#ffff;
+  font-family: 'Inria Serif';
+  font-weight: bold;
+
+}
+ul li a:hover
+{
+  color: #0CB3A5;
+}
+.search
+{
+    width: 330px;
+    float:left;
+    margin-right: 270;
+
+}
+.srch
+{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    left: 1200px;
+    top: 50px;
+    background: #D9D9D9;
+    border-radius: 100px;
+    border:1px solid #0CB3A5;
+    margin: top 13px;
+}
+.btn
+{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    background: transparent;
+    border:2px solid transparent;
+    margin-top:13px;
+    border-radius: 100px;
+    left: 1325px;
+    top: 50px;
+    font-weight: bold
+
+}
+.btn:focus
+{
+    outline:none;
+}
+.srch:focus
+{
+    outline:none;
+}
+.content
+{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 150px;
+  top: 300px;
+  font-family: 'Imprima';
+  font-style: normal;
+  font-weight: 150;
+  font-size: 30px;
+  line-height: 70px;
+  color: #D9D9D9;
+
+}
+#circles
+{
+    position: absolute;
+    width: 1800px;
+    height: 900px;
+    left: 0px;
+    top: 48px;
+    
+}
+#picture
+{
+    position: absolute;
+    width: 1000px;
+    height: 800px;
+    left: 950px;
+    top: 150px;
+ 
+}
+#enter
+{
+    color: white;
+    margin-top: 70%;
+    padding-top: 500px;
+
+}*/
+/*=================================Update Form===============================================================================================*/
+
+/* .container .mine{
+    
+    width: 350px;
+    height: 250px;
+    border-radius: 50px
+
+} */
+/* .mine{
+    margin-left: 700px;
+} */
+/* form {
+    margin-left: 25px;
+    margin-right: auto;
+} */
+/*
+.container {
+    display: flex;
+}
+
+.flex-con{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: transparent;
+    flex-direction: row;
+    margin-left: 500px;
+    width: 900px;
+    height: 400px;
+    padding: 50px;
+}
+.flex-con .mine{
+    margin-left: 100px;
+}
+#tut
+{
+    width: 320px;
+    height: 40px;
+    margin-left: 200px;
+    margin-top: -150px;
+    
+
+}*/
+
+/* .flex-item {
+    width: 200px;
+    height: 100px;
+}
+ */
+/* .upd
+{
+    
+    width: 500px;
+    height: 100px;
+    margin-left: 1100px;
+    margin-top: -200px;
+
+
+}
+ */

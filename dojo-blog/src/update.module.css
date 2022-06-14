@@ -1,0 +1,46 @@
+ .body {
+     background-image: none;
+ }
+ .name{
+    width: 300px; height: 35px; border-radius: 35px;
+ }
+ .myform{
+    margin-left: 25px; margin-top: 2%;
+ }
+.formcontrol{
+    padding: 15px;
+}
+.position, .email{
+    width: 300px; height: 35px; border-radius: 35px;
+}
+
+ /* .container {
+     display: flex;
+ }*/
+
+ .flexCon {
+     display: flex;
+     flex-wrap: wrap;
+     background-color: transparent;
+     flex-direction: row;
+     margin-left: 500px;
+     width: 900px;
+     height: 400px;
+     padding: 50px;
+ }
+/*
+ .flexCon .mine {
+     margin-left: 100px;
+ }*/
+
+ /* #update {
+     width: 300px;
+     height: 30px;
+     margin-left: 200px;
+     margin-top: -150px;
+
+
+ }  */
+ #update{
+     background-color: aquamarine;
+ }
